@@ -2,8 +2,31 @@ body{
     background-color: #00cbcc;
 }
 .caixadetexto{
-
+    border:2px solid #666666;
+    border-radius: 10px;
+    width:1250px;
+    height: 40px;
+    position: relative;
+    left: 460px;
+    bottom: 20px;
 }
 .botaosubmit{
-
+    border:2px solid #666666;
+    border-radius: 20px;
+    width: 30px;
+    height: 28px;
+    position: relative;
+    left: 1783px;
+    bottom: 62.5px;
+}
+.quadradomain{
+    background-color: #FFFFFF;
+    width:1550px;
+    height:800px;
+    padding:10px; 
+    border:5px solid #666666;
+    border-radius:25px;
+    position:relative;
+    left:300px;
+    bottom:-50px;
 }
