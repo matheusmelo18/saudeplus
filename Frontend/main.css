@@ -1,0 +1,99 @@
+body{
+    background-color: #00cbcc;
+    /* height: 90vh; */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caixadetexto{
+    font-size: 20px;
+    border:2px solid #666666;
+    border-radius: 10px;
+    height: 35px;
+    width: calc(98% - 15px);
+    padding-left: 10px;
+    margin-bottom: 15px;
+    /* position: relative;
+    left: 460px;
+    bottom: 20px; */
+}
+.botaosubmit{
+    border:2px solid #666666;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    /* position: relative;
+    left: 1783px;
+    bottom: 62.5px; */
+}
+.quadradomain{
+    background-color: #dce0df;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nomeClasse{
+    height: 100vh;
+    width: 25%;
+}
+.arrumaImagem{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.arrumaImagem img{
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.chatMain{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.inputRecebe{
+    font-size: 20px;
+    width: 100%;
+    direction: ltr;
+}
+.barraInput{
+    font-size: 20px;
+    display: flex;
+    width: 80%;
+}
+.material-symbols-outlined{
+    right: 2px !important;
+    top: 1px !important;
+    position: relative !important;
+}
+.form {
+    display: flex;
+    width: 100%;
+}
+.result{
+    padding: 20px;
+    width: calc( 80% - 20px);
+    font-size: 20px;
+    height: 40%;
+    background-color: #f3f3f3;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+.answers{
+    padding: 20px;
+    width: calc( 80% - 20px);
+    font-size: 20px;
+    height: 45%;
+    margin: 2% 0;
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
