@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" utf="8">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
 <body>
     <div class="flex">
@@ -20,12 +21,11 @@
         </div>
         <div class="chatMain">
             <div class="result" id="result"></div>
-            <div class="answers" id="answers">
-            </div>    
+            <div class="answers" id="answers"></div>    
             <div class="barraInput">
                 <form id="form" action="#" class="form" method="get" onsubmit="submitForm(event)">
                     <div class="inputRecebe">    
-                        <input type="textarea" placeholder="Qual a sua duvida?" rows="4" id="problem" value="" name="input" class="caixadetexto"><br>
+                        <input type="textarea" placeholder="Quais são seus sintomas?" rows="4" id="problem" value="" name="input" class="caixadetexto"><br>
                     </div>
                     <div class="submitButton">
                         <button type="submit" id="botaosubmit"   class="botaosubmit"><span class="material-symbols-outlined">

@@ -5,13 +5,16 @@ body{
     overflow-x: hidden; /* Hide horizontal scrollbar */
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .caixadetexto{
+    font-size: 20px;
     border:2px solid #666666;
     border-radius: 10px;
     height: 35px;
-    width: 99%;
+    width: calc(98% - 15px);
+    padding-left: 10px;
     margin-bottom: 15px;
     /* position: relative;
     left: 460px;
@@ -49,6 +52,7 @@ body{
     display: flex;
 }
 .chatMain{
+    margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -56,10 +60,12 @@ body{
     align-items: center;
 }
 .inputRecebe{
+    font-size: 20px;
     width: 100%;
     direction: ltr;
 }
 .barraInput{
+    font-size: 20px;
     display: flex;
     width: 80%;
 }
@@ -71,18 +77,23 @@ body{
 .form {
     display: flex;
     width: 100%;
-}.result{
-    width: 80%;
+}
+.result{
+    padding: 20px;
+    width: calc( 80% - 20px);
+    font-size: 20px;
     height: 40%;
-    background-color: #00e3e3;
+    background-color: #f3f3f3;
     border: 5px solid grey;
     border-radius: 10px;
 }
 .answers{
+    padding: 20px;
+    width: calc( 80% - 20px);
+    font-size: 20px;
     height: 45%;
     margin: 2% 0;
-    width: 80%;
     border: 5px solid grey;
     border-radius: 10px;
-    background-color: #73ffff;
+    background-color: #f3f3f3;
 }
