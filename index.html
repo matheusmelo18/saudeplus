@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Saúde Plus</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="main.css">
+    </head>
 <body>
-    <canvas id="myCanvas" class="quadradomain">
-        Your browser does not support the HTML canvas tag.
-        </canvas>
-    <form action="/action_page.php">
-        <input type="text" id="fname" name="fname" value="" class="caixadetexto"><br>
-        <input type="submit" value=" » " class="botaosubmit">
-      </form>
-    <canvas id="myCanvas" class="quadradoclone">
-        Your browser does not support the HTML canvas tag.
-    
+    <div class="flex">
+        <div class="nomeClasse">
+            <div id="myCanvas" class="quadradomain">
+                    <div class="arrumaImagem">
+                        <img src="./images/LogoNovoV2.jpeg" alt="Minha Figura">
+                    </div>
+            </div>
+        </div>
+        <div class="chatMain">
+            <div class="barraInput">
+                <form action="/action_page.php">
+                    <div class="inputRecebe">    
+                        <input type="text" id="problem" name="problem" value="" class="caixadetexto"><br>
+                    </div>
+                </form>
+                <submit>
+                    <button type="submit" value=" » " class="botaosubmit"><span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span></button>
+                    </submit>
+                </div>
+        </div>
+
+    </div>
 </body>
 </html>
