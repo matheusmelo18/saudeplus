@@ -4,12 +4,11 @@ function submitForm(event) {
     var inputValue = document.getElementById('problem').value
 
       event.preventDefault();
-      myForm.submit();
       result.innerHTML = `${inputValue}`
 
-      $.getJSON('https://random.dog/woof.json', function(data) {
-            var answers = document.getElementById("answers");
-
-            answers.innerHTML = `${data}`
-        });
+    const url = `http://127.0.0.1:8001?input=${inputValue}`
+    fetch(url).then(res => res.json()).then((data) => {
+        var answers = document.getElementById("answers");
+        answers.innerHTML = `${data.text}`
+    })
   }

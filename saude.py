@@ -1,4 +1,4 @@
-import requests
+import requests 
 import json
 
 headers = {
@@ -7,7 +7,7 @@ headers = {
 }
 
 mensagem1 = "Tenho os seguintes sintomas: "
-mensagem2 = "eu to com uma tosse danada e dores de barriga aleatórias"
+mensagem2 = 
 mensagem3 = ", qual seria o melhor tipo de especialisa que eu deveira procurar para resolver os meus problemas?"
 
 

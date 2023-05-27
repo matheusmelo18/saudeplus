@@ -6,20 +6,22 @@ body{
     padding: 0;
     margin: 0;
 }
+
 .caixadetexto{
     border:2px solid #666666;
     border-radius: 10px;
-    height: 10%;
-    width: 80%;
+    height: 35px;
+    width: 99%;
+    margin-bottom: 15px;
     /* position: relative;
     left: 460px;
     bottom: 20px; */
 }
 .botaosubmit{
     border:2px solid #666666;
-    border-radius: 20px;
-    width: 30px;
-    height: 28px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
     /* position: relative;
     left: 1783px;
     bottom: 62.5px; */
@@ -49,9 +51,38 @@ body{
 .chatMain{
     width: 100%;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
 .inputRecebe{
     width: 100%;
     direction: ltr;
+}
+.barraInput{
+    display: flex;
+    width: 80%;
+}
+.material-symbols-outlined{
+    right: 2px !important;
+    top: 1px !important;
+    position: relative !important;
+}
+.form {
+    display: flex;
+    width: 100%;
+}.result{
+    width: 80%;
+    height: 40%;
+    background-color: #00e3e3;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+.answers{
+    height: 45%;
+    margin: 2% 0;
+    width: 80%;
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: #73ffff;
 }
