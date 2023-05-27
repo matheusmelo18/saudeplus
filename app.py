@@ -21,7 +21,7 @@ def index():
 
     mensagem1 = "Tenho os seguintes sintomas: "
     user = request.args["input"] 
-    mensagem3 = ", qual seria o melhor tipo de especialisa que eu deveira procurar para resolver os meus problemas?"
+    mensagem3 = ", qual seria o melhor tipo de especialista da área da saúde que eu deveira procurar para resolver os meus problemas?"
 
     data = {
         "model": "gpt-3.5-turbo",  # O modelo que você deseja usar
